@@ -63,6 +63,11 @@
             border-radius: 8px;
             display: inline-block;
             font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        header .paper-ref:hover {
+            background: rgba(255,255,255,0.25);
         }
 
         section {
@@ -486,8 +491,10 @@
             <h1>Mining Association Rules</h1>
             <p class="subtitle">An interactive guide to discovering hidden patterns in transaction data</p>
             <div class="paper-ref">
-                Based on: Agrawal, Imieliński & Swami (1993)<br>
-                <em>"Mining Association Rules Between Sets of Items in Large Databases"</em>
+                <a href="https://dl.acm.org/doi/10.1145/170035.170072" target="_blank" style="color: white; text-decoration: none;">
+                    Agrawal, Imieliński & Swami (1993)<br>
+                    <em>"Mining Association Rules Between Sets of Items in Large Databases"</em>
+                </a>
             </div>
         </div>
     </header>
@@ -722,8 +729,7 @@
     <footer>
         <div class="container">
             <p>
-                Interactive explainer for educational purposes<br>
-                Original paper: <a href="https://dl.acm.org/doi/10.1145/170035.170072" target="_blank">ACM Digital Library</a>
+                Interactive explainer for educational purposes
             </p>
         </div>
     </footer>
